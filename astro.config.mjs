@@ -3,7 +3,8 @@ import { defineConfig, fontProviders } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://cool-bu1lder.github.io/gtavi-discord-tutorial/',
+    site: 'https://cool-bu1lder.github.io',
+    base: '/gtavi-discord-tutorial',
     fonts: [
 		{
 			provider: fontProviders.local(),
